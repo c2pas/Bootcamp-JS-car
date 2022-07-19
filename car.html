@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="car"></div>
+    </body>
+
+    <script>
+        var car_container = document.getElementById("car")
+        const car = {
+            manufacturer: "Daikatsu", 
+            type: "MPV", 
+            model: "Toyota Rush", 
+            engine: "1.5", 
+            img: "car.jpeg"
+        };
+
+        car_container.innerHTML = `
+            <img src="${car.img}" alt="car">
+            <ul>
+                <li>Manufacturer: ${car.manufacturer}</li>
+                <li>Make and Model: ${car.model}</li>
+                <li>Engine: ${car.engine}</li>
+                <li>Body Type: ${car.type}</li>
+            </ul>
+        `
+    </script>
+</html>

@@ -1,0 +1,13 @@
+#car {
+    width: 450px;
+}
+img {
+    width: 100%;
+}
+ul {
+    border: 1px solid;
+    list-style: none;
+    padding: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
